@@ -1,0 +1,9 @@
+# cortex.yaml
+
+- name: similar-articles-api
+  predictor:
+    type: python
+    path: predictor.py
+    config:
+      bucket: similar-articles-api
+      key: article_embeddings.bin
